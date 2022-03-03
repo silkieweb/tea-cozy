@@ -1,0 +1,169 @@
+* {
+    font-size: 22px;
+    color: #313131;
+    text-align: center;
+}
+
+main {
+    background-color: #f7e8d0;
+    width: 100%;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+h4 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/* Navigation Bar */
+
+#logo {
+    margin: 10px;
+    height: 50px;
+    background-color: #ba9bae;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.nav li {
+    display: inline;
+    padding: 10px;
+    opacity: 0.9;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.nav ul {
+    text-align: right;
+    padding: 10px;
+}
+
+.header {
+    min-height: 69px;
+    border-bottom: 3px solid seashell;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: #ad7f9c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    height: 700px;
+    width: 100%;
+    background-image: url("./images/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.mission h2, h4 {
+    text-align: center;
+}
+
+.mission {
+    width: 60%;
+    background-color: #ba9bae;
+    border-radius: 30px;
+}
+
+/* Tea of the Month */
+
+.featured-tea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+}
+
+.tea img {
+    height: 200px;
+    padding: 10px;
+}
+
+.tea img:hover {
+    opacity: .5;
+}
+
+.tea h4 {
+    font-size: 25px;
+}
+
+.tea {
+    min-width: 300px;
+}
+
+/* Locations */
+
+.location-section {
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    background-image: url("./images/img-locations-background.jpg");
+    margin-bottom: 50px;
+}
+
+.location-section h2 {
+    color:#f7e8d0
+}
+
+.location {
+    background-color: #ba9bae;
+    width: 300px;
+    margin: 15px 20px;
+    display: inline-block;
+    line-height: 2.3;
+}
+
+.location-section h2 {
+    padding-top: 50px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #ad7f9c;
+    height: 250px;
+    line-height: .5em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer h5 {
+    margin-top: 10px;
+}
+
+#copyright {
+    font-size: 15px;
+}
